@@ -12,9 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/mesh1.gif" width="200"/>
-  <img src="assets/mesh2.gif" width="200"/>
-  <img src="assets/mesh3.gif" width="200"/>
+  <img src="assets/meshheart_combined.gif" width="700"/>
 </p>
 
 <p align="center">
