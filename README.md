@@ -8,13 +8,13 @@
 
 
 <p align="center">
-  <img src="assets/meshheart_conditions.png" width="800"/>
+  <img src="assets/meshheart_conditions.png" width="600"/>
 </p>
 
 <p align="center">
-  <img src="assets/mesh1.gif" width="300"/>
-  <img src="assets/mesh2.gif" width="300"/>
-  <img src="assets/mesh3.gif" width="300"/>
+  <img src="assets/mesh1.gif" width="200"/>
+  <img src="assets/mesh2.gif" width="200"/>
+  <img src="assets/mesh3.gif" width="200"/>
 </p>
 
 <p align="center">
