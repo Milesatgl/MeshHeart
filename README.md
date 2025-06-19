@@ -8,11 +8,11 @@
 
 
 <p align="center">
-  <img src="assets/meshheart_conditions.png" width="600"/>
+  <img src="assets/meshheart_conditions.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="assets/meshheart_combined.gif" width="700"/>
+  <img src="assets/meshheart_combined.gif" width="800"/>
 </p>
 
 <p align="center">
