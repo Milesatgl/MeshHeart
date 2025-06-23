@@ -30,7 +30,7 @@ def VAECELoss(v_pre, v_gt, f, logvar, mu, beta=1e-2, lambd=1, lambd_s=1, loss='c
     if 'cham' in loss:
         loss_e = MSE_loss(v_gt.squeeze() + 0.5,
                   v_pre.squeeze() + 0.5)
-
+    # KL散度损失
     loss_kld = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp())
 
 

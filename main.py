@@ -6,10 +6,10 @@ from tqdm import tqdm
 import os
 
 from data.dataloader import UKbiobankMesh
-import util.mesh as u_mesh
+# import util.mesh as u_mesh
 import util.utils as util
 import loss.loss as Loss
-import util.transform as transform
+# import util.transform as transform
 
 # import logging
 from config import load_config
@@ -18,8 +18,8 @@ import timeit
 
 
 from torch.utils.tensorboard import SummaryWriter
-import model.lstm_vae_batch as lstm
-import model.coma_transformer_vae as gcn
+# import model.lstm_vae_batch as lstm
+# import model.coma_transformer_vae as gcn
 import model.transformer_vae_batch as Trans_vae
 import time
 import pyvista as pv
@@ -47,6 +47,8 @@ def train(mesheart, trainloader, optimizer, device, config, writer, epoch):
         optimizer.zero_grad()
         heart_v, heart_f, heart_e, con = heart_v.to(device), heart_f.to(device), heart_e.to(device), con.to(device)
 
+        # logvar and mu is from encoder block
+        # v_out is the reconstructed mesh, from decoder block
         v_out, logvar, mu = mesheart(heart_v, heart_f, heart_e, con)
 
         loss, loss_recon = Loss.VAECELoss(v_out, heart_v, heart_f, logvar,

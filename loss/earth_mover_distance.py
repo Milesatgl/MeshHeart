@@ -1,5 +1,5 @@
 import torch
-from pyinn.utils import Stream, load_kernel
+from pyinn.pyinn.utils import Stream, load_kernel
 from torch.autograd import Function
 from torch.nn.modules.module import Module
 

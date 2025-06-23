@@ -2,14 +2,14 @@ from torch.utils.data import Dataset
 import torch
 import numpy as np
 import csv
-import pyvista as pv
+# import pyvista as pv
 import util.utils as util
-import util.mesh as u_mesh
+# import util.mesh as u_mesh
 import h5py
 from torch_geometric.data import InMemoryDataset, Data
-from tqdm import tqdm
+# from tqdm import tqdm
 
-import util.transform as transform
+# import util.transform as transform
 
 class UKbiobankMesh(Dataset):
 
